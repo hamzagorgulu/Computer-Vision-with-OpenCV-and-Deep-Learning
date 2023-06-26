@@ -25,6 +25,7 @@ plt.show()
 # visualize with cv2
 # you have to provide the definition, otherwise you will get an error.
 print("This is how opencv reads the initial image")
+#opencv displaysm the real image sizes, you cant resize it.
 cv2.imshow("show", img)
 cv2.waitKey(0)
 
